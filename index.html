@@ -4,6 +4,7 @@
 $(function() {
 	$('#snake').click(function() {
 		$(this).find('audio')[0].play();
+        console.log('Snake clicked');
 	});
 });
 
@@ -12,7 +13,8 @@ $(function() {
 
 <div id="snake">
 	<img src="snake.jpeg" alt="Snake">
-	<audio id="snakesound" src="snake.ogg"></audio> 
+	<audio id="snakesound" src="snake.mp3"></audio>
+
 </div>
 
 
